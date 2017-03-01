@@ -1,0 +1,6 @@
+## ===================
+## This is a one-liner to ask for a password a store it safely in a
+#securepass.txt file
+read-host -prompt "Enter password to be encrypted in securepass.txt "
+-assecurestring | convertfrom-securestring | out-file C:\DiskSpace\securepass.txt
+## =================== 
